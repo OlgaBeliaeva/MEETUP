@@ -36,7 +36,7 @@
         text-align: center;
     }
     .header_Box_Btn{
-        display: none;
+        width: 25%;
     }
 }
 @media (max-width: 768px) {
@@ -48,6 +48,10 @@
         text-align: center;
         font-size: 34px;
     }
+    .header_Box_Btn{
+        width: 25%;
+           
+   }
 }
 @media (max-width: 576px) {
     .headerBox{
@@ -69,7 +73,9 @@
     .headerBox_right img{
         width: 80%;
     }
-  
+    .header_Box_Btn{
+        width: 20%;
+    }
 }
 
 
