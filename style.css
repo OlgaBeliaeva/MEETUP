@@ -6,6 +6,7 @@
 @import url("./css/upHeader.css");
 @import url("./css/joinMeetup.css");
 @import url("./css/categories.css");
+@import url("./css/popular.css");
 
 * {
   margin: 0;
