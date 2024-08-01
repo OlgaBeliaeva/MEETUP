@@ -12,46 +12,39 @@
     width: 75%;
 }
 
-/* Стили для контейнера с городами */
 .popularBox {
     display: flex;
     justify-content: center;
     gap: 30px;
-    flex-wrap: wrap; /* Обеспечивает корректное размещение элементов при уменьшении экрана */
+    flex-wrap: wrap; 
 }
 
-/* Стили для каждого элемента города */
 .popularItem {
     text-align: center;
-    cursor: pointer; /* Курсор руки при наведении */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Плавные переходы */
+    cursor: pointer; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
 }
 
-/* Стили для изображения внутри элемента города */
 .popularItem img {
     width: 100%;
-    border-radius: 50%; /* Делает изображение круглым */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Плавное изменение фильтра */
+    border-radius: 50%; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Эффекты при наведении на изображение */
 .popularItem:hover img {
-    animation: pulseAndShrink 1s ease-out; /* Анимация пульсации и уменьшения при наведении */
+    animation: pulseAndShrink 1s ease-out;
 }
 
-/* Стили для текста в элементе города */
 .popularItem p {
     font-weight: 600;
     padding-top: 24px;
-    margin-top: 10px; /* Отступ сверху для расположения на 1 см ниже */
-    transition: text-decoration 0.3s ease; /* Плавное изменение подчеркивания */
+    margin-top: 10px; 
+    transition: text-decoration 0.3s ease; 
 }
 
-/* Эффекты при наведении на текст */
 .popularItem p:hover {
-    text-decoration: underline; /* Подчеркивание текста при наведении */
+    text-decoration: underline; 
 }
-
 /* Анимация пульсации и уменьшения */
 @keyframes pulseAndShrink {
     0% {
@@ -76,7 +69,6 @@
     }
 }
 
-/* Мобильные стили */
 @media (max-width: 992px) {
     .popularBox {
         flex-direction: column;
@@ -84,12 +76,11 @@
     }
     .popularItem {
         width: 100%;
-        max-width: 250px; /* Устанавливаем максимальную ширину элемента на мобильных устройствах */
+        max-width: 250px; 
     }
 }
-
 @media (max-width: 576px) {
     .popularTitle p {
-        width: 100%; /* Расширение текста на полную ширину на маленьких экранах */
+        width: 100%; 
     }
 }

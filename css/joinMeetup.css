@@ -43,7 +43,6 @@ flex: 1;
     }
 
 }
-
 @media (max-width: 576px) {
     .joinMeetupContainer{
         flex-direction: column-reverse;

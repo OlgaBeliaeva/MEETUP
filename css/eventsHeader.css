@@ -5,19 +5,23 @@
     height: 44px;
     margin-top: 24px;
   }
+
   .eventsHeaderLeftSide {
     display: flex;
   }
+
   .btnSeeAll {
     color: var(--color-btn-blue);
     border: none;
     background-color: white;
     font-weight: bold;
   }
+
   .btnSeeAll:hover {
     cursor: pointer;
     text-decoration: underline;
   }
+
   .btnEvents {
     width: 239px;
     background-color: #97cad11f;
@@ -30,10 +34,11 @@
     display: flex;
     align-items: center;
   }
+
   .btnEvents img {
     margin-left: 8px;
   }
-  .btnEvents:hover {
+    .btnEvents:hover {
     color: #16a5b8;
     cursor: pointer;
   }

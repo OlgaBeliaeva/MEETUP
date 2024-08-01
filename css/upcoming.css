@@ -1,4 +1,3 @@
-   /* General styles */
    .upBoxContainer {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -36,22 +35,20 @@
     line-height: 34px;
   }
   
-  /* Hover effects */
   .upBoxItem:hover {
     cursor: pointer;
   }
   
   .upBoxItem:hover img {
-    filter: brightness(1.2); /* Lightens the image */
+    filter: brightness(1.2); 
   }
   
   .upBoxItem:hover h4 {
     text-decoration: underline;
   }
   
-  /* Media queries */
   @media (max-width: 1400px) {
-    /* Add your specific styles for this screen size */
+   
   }
   
   @media (max-width: 1200px) {
@@ -93,7 +90,6 @@
         border-top: 1px solid #d9d9d9;
     }
   }
-  
-  .infoItems li img {
+    .infoItems li img {
     width: 15px;
   }
